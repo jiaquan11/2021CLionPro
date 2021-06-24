@@ -1,0 +1,3 @@
+F:/study/2021CLionPro/CTest/cmake-build-debug/CMakeFiles/CTest.dir
+F:/study/2021CLionPro/CTest/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/study/2021CLionPro/CTest/cmake-build-debug/CMakeFiles/rebuild_cache.dir
