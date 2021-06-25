@@ -3,4 +3,4 @@ project(CTest C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(CTest main7.c)
+add_executable(CTest main8.c)
