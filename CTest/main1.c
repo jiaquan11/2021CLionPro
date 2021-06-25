@@ -5,6 +5,9 @@
 #include <stdlib.h>
 #include <string.h>
 
+/*
+ * sprintf格式化的使用
+ * */
 void test(){
     //1. 格式化字符串
     char buf[1024] = { 0 };
