@@ -13,6 +13,16 @@ void test(){
     int num = 200;
     sprintf(buf, "%d", num);
     printf("buf:%s\n", buf);
+
+    //设置宽度 右对齐
+    memset(buf, 0, 1024);
+    sprintf(buf, "%8d", num);
+    printf("buf:%s\n", buf);
+
+    //设置宽度 左对齐
+    memset(buf, 0, 1024);
+    sprintf(buf, "%-8d", num);
+    printf("buf:%s\n", buf);
 }
 
 int main() {
