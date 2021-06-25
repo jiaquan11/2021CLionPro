@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-F:/study/2021CLionPro/CTest/main.c
+F:/study/2021CLionPro/CTest/main1.c
 stdio.h
+-
+stdlib.h
+-
+string.h
 -
 

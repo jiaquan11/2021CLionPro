@@ -76,27 +76,27 @@ include CMakeFiles/CTest.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CTest.dir/flags.make
 
-CMakeFiles/CTest.dir/main.c.obj: CMakeFiles/CTest.dir/flags.make
-CMakeFiles/CTest.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\study\2021CLionPro\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/CTest.dir/main.c.obj"
-	D:\tools\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CTest.dir\main.c.obj   -c F:\study\2021CLionPro\CTest\main.c
+CMakeFiles/CTest.dir/main1.c.obj: CMakeFiles/CTest.dir/flags.make
+CMakeFiles/CTest.dir/main1.c.obj: ../main1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\study\2021CLionPro\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/CTest.dir/main1.c.obj"
+	D:\tools\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CTest.dir\main1.c.obj   -c F:\study\2021CLionPro\CTest\main1.c
 
-CMakeFiles/CTest.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CTest.dir/main.c.i"
-	D:\tools\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\study\2021CLionPro\CTest\main.c > CMakeFiles\CTest.dir\main.c.i
+CMakeFiles/CTest.dir/main1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CTest.dir/main1.c.i"
+	D:\tools\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\study\2021CLionPro\CTest\main1.c > CMakeFiles\CTest.dir\main1.c.i
 
-CMakeFiles/CTest.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CTest.dir/main.c.s"
-	D:\tools\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\study\2021CLionPro\CTest\main.c -o CMakeFiles\CTest.dir\main.c.s
+CMakeFiles/CTest.dir/main1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CTest.dir/main1.c.s"
+	D:\tools\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\study\2021CLionPro\CTest\main1.c -o CMakeFiles\CTest.dir\main1.c.s
 
 # Object files for target CTest
 CTest_OBJECTS = \
-"CMakeFiles/CTest.dir/main.c.obj"
+"CMakeFiles/CTest.dir/main1.c.obj"
 
 # External object files for target CTest
 CTest_EXTERNAL_OBJECTS =
 
-CTest.exe: CMakeFiles/CTest.dir/main.c.obj
+CTest.exe: CMakeFiles/CTest.dir/main1.c.obj
 CTest.exe: CMakeFiles/CTest.dir/build.make
 CTest.exe: CMakeFiles/CTest.dir/linklibs.rsp
 CTest.exe: CMakeFiles/CTest.dir/objects1.rsp
