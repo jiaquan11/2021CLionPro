@@ -105,7 +105,41 @@ void test01() {
     PrintMyArrayInt(arr);
 }
 
+
+//测试 存储自定义数据类型
+class Person {
+public:
+    Person() {}
+
+    Person(string name, int age) {
+        this->mName = name;
+        this->mAge = age;
+    }
+
+public:
+    string mName;
+    int mAge;
+};
+
+//打印函数
+void PrintMyArrayPerson(MyArray<Person> &arr) {
+    for (int i = 0; i < arr.mSize; i++) {
+        cout << "Name:" << arr[i].mName << " Age:" << arr[i].mAge << endl;
+    }
+}
+
+void test02() {
+    MyArray<Person> myarray(20);
+    for (int i = 0; i < 20; i++) {
+        Person myperson("aaa", i + 20);
+        myarray.Push_Back(myperson);
+    }
+    PrintMyArrayPerson(myarray);
+}
+
 int main() {
     test01();
+
+    test02();
     return 0;
 }
